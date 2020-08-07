@@ -1,2 +1,3 @@
 # Projeto Poli Junior
- Projeto desenvolvido para o processo seletivo da Poli Junior
+ Projeto desenvolvido para a primeira fase do processo seletivo do núcleo de tecnologia da Poli Junior.
+ 
