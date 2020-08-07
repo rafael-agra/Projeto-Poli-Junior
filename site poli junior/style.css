@@ -17,34 +17,49 @@ div#interface{
 header#cabecalho {
 	border-bottom: 1px solid #000000;
 	height:100px;
-	background-color: #00468E;  
+	background-color: #FFFFFF;  
 
 }
 
 header#cabecalho h1{
 	font-size: 30pt;
-	font-family: arial;
-	color: #FFFFFF;
+	font-family: 'Berkshire Swash', cursive;
+	color: #000000;
 	position: absolute;
-	left:50px;
+	right:100px;
 	text-transform:uppercase;
 
 }
 
-
-/*Formatacao do menu*/
-nav#menu {
+/*Formatacao da faixa de cor azul claro*/
+div#azul {
 	display: block;
-	height: 30px;
-	background-color: #EEEEEE
+	height: 10px;
+	background-color: #64C4D2
 }
 
+/*Formatacao da faixa de cor amarelo*/
+div#amarelo {
+	display: block;
+	height: 10px;
+	background-color: #FCB421
+}
+
+
+/*Formatacao da cor escura*/
+div#escuro {
+	display: block;
+	height: 15px;
+	background-color: #1094AB
+}
+
+/*
 nav#menu ul {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
 	left: 500px;
-	top: 60px;
+	top: 80px;
 }
 nav#menu li {
 	display: inline-block;
@@ -59,6 +74,7 @@ nav#menu li:hover{
 	color: #888888;
 	text-decoration: underline;
 }
+*/
 
 /*Configuracao do corpo*/
 section#corpo {
@@ -74,8 +90,7 @@ section#corpo p{
 	margin-right: 10px;	
 }
 
-/*Formacao da noticia*/
-
+/*Formacao da noticia
 header#cabecalho-noticia h1 {
 	font-size: 30pt;
 	font-family: arial;
@@ -91,13 +106,13 @@ header#cabecalho-noticia h3 {
 	margin-top: 0px;
 	color: #00468E;
 }
-
+*/
 
 /*Formatacao do Rodape*/
 footer#rodape{
 	clear: both;
 	border-top: 1px solid #606060;
-	background-color: #00468E
+	background-color: #FCB421
 }
 
 footer#rodape p{
