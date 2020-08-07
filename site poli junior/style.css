@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*Configuracoes Gerais*/
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+
+/*Formatacao da Interface e do Cabecalho*/
+div#interface{
+	margin: -30px auto -10px auto;
+	width: absolute;
+	padding: 10px 10px 10px 10px;
+}
+
+
+header#cabecalho {
+	border-bottom: 1px solid #000000;
+	height:100px;
+	background-color: #00468E;  
+
+}
+
+header#cabecalho h1{
+	font-size: 30pt;
+	font-family: arial;
+	color: #FFFFFF;
+	position: absolute;
+	left:50px;
+	text-transform:uppercase;
+
+}
+
+
+/*Formatacao do menu*/
+nav#menu {
+	display: block;
+	height: 30px;
+	background-color: #EEEEEE
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+nav#menu li {
+	display: inline-block;
+	padding:10px; 
+	margin:5px;
+	font-size: 10pt;
+	font-family: arial;
+	color: #00468E
+}
+
+nav#menu li:hover{
+	color: #888888;
+	text-decoration: underline;
+}
+
+/*Configuracao do corpo*/
+section#corpo {
+	display: block;
+	float: left;
+	height: 500px;
+
+}
+
+section#corpo p{
+	font-size: 10pt;
+	font-family: arial;
+	margin-right: 10px;	
+}
+
+/*Formacao da noticia*/
+
+header#cabecalho-noticia h1 {
+	font-size: 30pt;
+	font-family: arial;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-top: 5px; 
+}
+
+header#cabecalho-noticia h3 {
+	font-family: arial;
+	font-size: 20pt;
+	margin-left: 30px;
+	margin-top: 0px;
+	color: #00468E;
+}
+
+
+/*Formatacao do Rodape*/
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	background-color: #00468E
+}
+
+footer#rodape p{
+	text-align: center;
+	font-size: 10pt;
+	font-family: arial;
+	color: #FFFFFF;
+
+}
