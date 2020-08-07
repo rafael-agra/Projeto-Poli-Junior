@@ -1,7 +1,7 @@
 async function getContent(){
     try {
-        const resposta = await fetch ('https://api.polijunior.com.br/notas/')
-        const data = await resposta.json()
+        const response = await fetch ('https://api.polijunior.com.br/notas/')
+        const data = await response.json()
 
         console.log(data)
         show(data)
@@ -24,7 +24,7 @@ function show(users){
         var p1 = parseFloat(`${user.nota_p1}`);
         var soma = p1+p2;
 
-        output += soma;
+        output += `a soma da p1 com a p2 eh `+ soma;
     }
 
     document.querySelector('main').innerHTML = output;

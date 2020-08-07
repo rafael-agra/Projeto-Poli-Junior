@@ -18,17 +18,21 @@ header#cabecalho {
 	border-bottom: 1px solid #000000;
 	height:100px;
 	background-color: #FFFFFF;  
-
 }
 
 header#cabecalho h1{
-	font-size: 30pt;
+	font-size: 40pt;
 	font-family: 'Berkshire Swash', cursive;
 	color: #000000;
 	position: absolute;
-	right:100px;
+	top: -20px;
+	right:60px;
 	text-transform:uppercase;
+}
 
+header#cabecalho img#poli{
+	position: absolute;
+	top: 2px;
 }
 
 /*Formatacao da faixa de cor azul claro*/
@@ -81,7 +85,6 @@ section#corpo {
 	display: block;
 	float: left;
 	height: 500px;
-
 }
 
 section#corpo p{
@@ -120,5 +123,4 @@ footer#rodape p{
 	font-size: 10pt;
 	font-family: arial;
 	color: #FFFFFF;
-
 }
