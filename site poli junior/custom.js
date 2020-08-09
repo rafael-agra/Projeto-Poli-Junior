@@ -28,16 +28,16 @@ function show(users){
 
         var n3 = ((mp*(p1+p2+p3)-p1*n1-p2*n2)/p3).toFixed(1);
         
-        output += `<tr> <td width="101" height="40"><li>Nota da P1 -> ${user.nota_p1} </li> </td>`;
-        output += `<td> <li>Nota da P2 -> ${user.nota_p2} </li> </td>`;
+        output += `<tr> <td width="350" height="40"><li>Nota da P1 -> ${user.nota_p1} </li> </td>`;
+        output += `<td width = "350"><li>Nota da P2 -> ${user.nota_p2} </li> </td>`;
 
         
         if (n3 <= 0){
-            output += `<td>voce ja esta aprovado nesta disciplina</td> `;
+            output += `<td width = "400">Você já está aprovado nesta disciplina</td> `;
         }else if(n3 >= 10){
-            output += `<td>nao e possivel atingir a media proposta na p3</td>`;
+            output += `<td>Não é possível atingir a média proposta na p3</td>`;
         }else{
-            output += `<td>a nota para a p3 eh `+ n3 + '</td>';
+            output += `<td>A nota necessária para a p3 é de: `+ n3 + '</td>';
         }
 
         
