@@ -57,6 +57,14 @@ div#escuro {
 	background-color: #1094AB
 }
 
+/* Formatacao da main <tabela>*/
+main#dados{
+	display: block;
+	position: absolute;
+	top: 220px;
+	left: 140px;
+}
+
 /*Configuracao do corpo*/
 section#corpo {
 	display: block;
@@ -78,8 +86,11 @@ footer#rodape{
 }
 
 footer#rodape p{
-	text-align: center;
 	font-size: 10pt;
 	font-family: arial;
 	color: #FFFFFF;
+	font-size: 14px;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }

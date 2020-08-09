@@ -33,7 +33,7 @@ function show(users){
 
         
         if (n3 <= 0){
-            output += `<td width = "400">Você já está aprovado nesta disciplina</td> `;
+            output += `<td width = "400">Você já está aprovado nesta disciplina :)</td> `;
         }else if(n3 >= 10){
             output += `<td>Não é possível atingir a média proposta na p3</td>`;
         }else{
