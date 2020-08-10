@@ -3,20 +3,24 @@
     <head>
         <title>Notas Poli</title>
         <link rel="stylesheet" href="login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <form>
-            <legend id="usuario" >Identificação do Usuário</legend>
+        <form id="login">
+            <fieldset id="usuario">
+                <legend id="usuario" >Identificação do Usuário</legend>
                 
-            <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/> </p>
-                
-            <p><label for="cSenha" >Senha:</label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"/> </p>
-                
-            <p><label for="cMail">NºUSP</label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="12345678"> </p>
-            
-            <input type="image" src="_imagens/botao-enviar.png" name="tEnviar" />
+                <p><label for="cMail">NºUSP</label> <input type="number" name="tNumero" id="cNumero" size="20" maxlength="15" placeholder="12345678"> </p>
 
+                <p><label for="cSenha" >Senha:</label> <input type="password" name="tSenha" id="cSenha" size="20" maxlength="12" placeholder="Digite sua senha:"/> </p>
+                    
+                
+                
+                <input type="image" src="_imagens/botao-enviar.png" name="tEnviar" />
+                <p>
+                    Não possui uma conta? <a href=""> Cadastrar </a>
+                </p>
             </fieldset>
         </form>
     </body>
