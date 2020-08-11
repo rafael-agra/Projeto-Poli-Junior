@@ -48,6 +48,5 @@ function show(users){
 
         
     }
-
     document.querySelector('main').innerHTML = output;
 }  
