@@ -61,8 +61,11 @@ div#escuro {
 main#dados{
 	display: block;
 	position: absolute;
-	top: 220px;
-	left: 320px;
+	position: absolute;
+    left: 50%;
+    top: 50%; 
+	transform: translate(-50%,-50%);
+	width: 800px; 
 }
 
 /*Configuracao do corpo*/
