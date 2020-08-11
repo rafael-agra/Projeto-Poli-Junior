@@ -4,22 +4,19 @@
         <title>Notas Poli</title>
         <link rel="stylesheet" href="login.css">
         <link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <form id="login">
             <fieldset id="usuario">
                 <legend id="usuario" >Identificação do Usuário</legend>
                 
-                <p><label for="cMail">NºUSP</label> <input type="number" name="tNumero" id="cNumero" size="20" maxlength="15" placeholder="12345678"> </p>
+                <p><label for="cMail">NºUSP</label> <input type="text" name="tNumero" id="cNumero" size="20" maxlength="15" placeholder="12345678"> </p>
 
                 <p><label for="cSenha" >Senha:</label> <input type="password" name="tSenha" id="cSenha" size="20" maxlength="12" placeholder="Digite sua senha:"/> </p>
                     
-                
-                
-                <input type="image" src="_imagens/botao-enviar.png" name="tEnviar" />
+                <a href="notas.html" class="bt bt-acessar">Entrar</a>
                 <p>
-                    Não possui uma conta? <a href=""> Cadastrar </a>
+                    Não possui uma conta? <a href="#" id="cadastrar" onclick="alert('Desculpe, ainda não é possível realizar cadastro')"> Cadastrar </a>
                 </p>
             </fieldset>
         </form>
