@@ -97,3 +97,18 @@ footer#rodape p{
     padding-bottom: 10px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1000px) {
+	main#dados{
+		display: block;
+		position: absolute;
+		position: absolute;
+		left: 50%;
+		top: 50%; 
+		transform: translate(-50%,-50%);
+		width: 500px; 
+	}
+
+	
+
+}
