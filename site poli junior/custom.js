@@ -34,12 +34,12 @@ function show(users){
         var n3 = ((mp*(p1+p2+p3)-p1*n1-p2*n2)/p3).toFixed(1);
         
         output += `<tr> <td width="350" height="40">${user.materia} </td>`;
-        output += `<td width="350"><li> ${user.nota_p1} </li> </td >`;
-        output += `<td width = "350"><li> ${user.nota_p2} </li> </td>`;
+        output += `<td width="120"><li> ${user.nota_p1} </li> </td >`;
+        output += `<td width = "120"><li> ${user.nota_p2} </li> </td>`;
 
         
         if (n3 <= 0){
-            output += `<td width = "400">Você já está aprovado nesta disciplina :)</td> `;
+            output += `<td width = "400">Você já atingiu a média proposta nesta disciplina :)</td> `;
         }else if(n3 >= 10){
             output += `<td>Não é possível atingir a média proposta na p3 :(</td>`;
         }else{
