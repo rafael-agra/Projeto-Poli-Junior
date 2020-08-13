@@ -21,6 +21,9 @@ sem maiores complicações e tendo em mente que essa ferramenta seria divulgada 
 da instituição.
 </p>
 
+## A aplicação
+
+
 
 ## Funcionalidades
 :trophy: Buscar dados de uma api e mostrar em formas de tabela <br/>
@@ -33,4 +36,4 @@ da instituição.
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - 2020
+Copyright :copyright: - 2020
