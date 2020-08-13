@@ -1,6 +1,14 @@
 # Projeto Poli Junior
 > Status do Projeto: Em desenvolvimento :warning:
 
+### Tópicos 
+
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Licença](#Licença)
+
 ## Descrição do Projeto
 <p>
 O projeto consistia na criação de uma página uma página em HTML, CSS e Javascript que fizesse um 
@@ -14,14 +22,15 @@ da instituição.
 </p>
 
 
-## O que a plataforma é capaz de fazer
+## Funcionalidades
 :trophy: Buscar dados de uma api e mostrar em formas de tabela <br/>
 :trophy: Redirecionar um usuário da página de login para a principal <br/>
 :trophy: Verificar se o usuário digitou ao menos 3 caracteres/números em cada "textbox" na página de login <br/>
+:trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida.
 
 
+## Licença 
 
+The [MIT License]() (MIT)
 
-## Licença
-![Badge](https://img.shields.io/github/license/rafaelmspu2/Projeto-Poli-Junior)
-
+Copyright :copyright: Ano - 2020
