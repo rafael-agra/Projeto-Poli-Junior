@@ -7,6 +7,8 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
+:small_blue_diamond: [Licença](#Licença)
+
 ## Descrição do Projeto
 <p>
 O projeto consistia na criação de uma página uma página em HTML, CSS e Javascript que fizesse um 
