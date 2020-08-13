@@ -139,15 +139,32 @@ footer#rodape p{
     margin-bottom: 0;
 }
 
+/*Formatacao para tablets*/
+@media only screen and (max-device-width: 1100px) {
+	div#dados{ 
+		height: 100px;
+		font-size: 20pt;
+		transform: translate(-50%,-450%);
+	}
+
+	/*Formatacao do footer*/
+	footer#rodape {
+		height: 50px;
+	}
+
+	footer#rodape p{
+		font-size: 45px;
+	}
+}
 
 /*Formatacao para celulares*/
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 700px) {
 	/*Formatacao dados da tabela*/
 	div#dados{ 
 		height: 100px;
 		left: 50%;
     	top: 50%; 
-		transform: translate(-50%,-300%);
+		transform: translate(-50%,-450%);
 		font-size: 25pt;
 	}
 
@@ -183,6 +200,12 @@ footer#rodape p{
 		padding: 0px;
 	}
 	
+	/*Configuracoes do tamanho*/
+	section#corpo {
+		height: 600px;
+	}
+	
+
 	/*Formatacao das cores do cabecalho*/
 	div#azul {
 		height: 20px;
@@ -197,7 +220,18 @@ footer#rodape p{
 	}
 
 	/*Formatacao do footer*/
+	footer#rodape {
+		height: 40px;
+	}
+
 	footer#rodape p{
-		font-size: 25px;
+		font-size: 35px;
+	}
+
+	/*Formatacao dispositivos pequenos*/
+	@media only screen and (max-device-width: 500px) {
+		div#dados{ 
+			font-size: 20pt;
+		}
 	}
 }
