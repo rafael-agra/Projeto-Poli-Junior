@@ -1,4 +1,5 @@
 # Projeto Poli Junior
+> Status do Projeto: Em desenvolvimento :warning:
 
 ## Descrição do Projeto
 <p>
@@ -23,3 +24,4 @@ da instituição.
 
 ## Licença
 ![Badge](https://img.shields.io/github/license/rafaelmspu2/Projeto-Poli-Junior)
+
