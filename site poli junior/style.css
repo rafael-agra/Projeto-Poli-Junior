@@ -39,8 +39,8 @@ header#cabecalho h1{
 	font-family: 'Fenix', serif;
 	color: #000000;
 	position: absolute;
-	top: 5%;
-	right:5%;
+	top: 50px;
+	right: 50px;
 	transform: translate(0%,-50%);
 	text-transform:uppercase;
 }
@@ -78,15 +78,31 @@ div#escuro {
 	background-color: #1094AB
 }
 
-/* Formatacao da main <tabela>*/
-main#dados{
+/* Formatacao da <tabela>*/
+div#dados{
 	display: block;
-	position: absolute;
 	position: absolute;
     left: 50%;
     top: 50%; 
 	transform: translate(-50%,-50%);
 	width: 800px; 
+}
+
+div#dados td{
+	text-align: center;
+}
+
+div#dados td#materia{
+	width: 350px;
+	height:40px;
+}
+
+div#dados td#notas{
+	width: 120px;
+}
+
+div#dados td#p3{
+	width : 400px;
 }
 
 /*Configuracao do corpo*/
@@ -104,33 +120,84 @@ section#corpo p{
 
 /*Formatacao do Rodape*/
 footer#rodape{
-	position:absolute;
-    bottom:0;
-    width:100%;
 	clear: both;
 	border-top: 1px solid #606060;
-	background-color: #FCB421
+	background-color: #FCB421;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	height: 30px;
 }
 
 footer#rodape p{
-	font-size: 10pt;
 	font-family: arial;
 	color: #FFFFFF;
 	font-size: 14px;
-    text-align: justify;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
     margin-bottom: 0;
 }
 
-/*
-@media screen and (max-width: 1000px) {
-	main#dados{
-		width: 500px; 
+
+/*Formatacao para celulares*/
+@media only screen and (max-device-width: 800px) {
+	/*Formatacao dados da tabela*/
+	div#dados{ 
+		height: 100px;
+		left: 50%;
+    	top: 50%; 
+		transform: translate(-50%,-300%);
+		font-size: 25pt;
+	}
+
+	div#dados td#materia{
+		height: 150px;
+	}
+	
+	div#dados td#notas{
+		height: 150px;
+	}
+
+	div#dados td#p3{
+		height: 150px;
+	}
+	
+	/*Formatacao do Cabecalho*/
+	header#cabecalho {
+		height:150px;  
 	}
 
 	header#cabecalho h1{
-		font-size: 30pt;
+		font-size: 60pt;
+		top: 70px;
+		right: 90px;
+	}
+	
+	header#cabecalho img#poli{
+		width: 110px;
+	}
+	
+	header#cabecalho img#chapeu{
+		width: 120px;
+		padding: 0px;
+	}
+	
+	/*Formatacao das cores do cabecalho*/
+	div#azul {
+		height: 20px;
 	}
 
+	div#amarelo {
+		height: 20px;
+	}	
+
+	div#escuro {
+		height: 25px;
+	}
+
+	/*Formatacao do footer*/
+	footer#rodape p{
+		font-size: 25px;
+	}
 }
-*/

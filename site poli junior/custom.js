@@ -38,14 +38,14 @@ function show(users){
         //Calculo da nota para a P3
         var n3 = ((mp*(p1+p2+p3)-p1*n1-p2*n2)/p3).toFixed(1);
         
-        output += `<tr> <td width="350" height="40">${user.materia} </td>`;
-        output += `<td width="120" align="center">`+ n1 +` </td >`;
-        output += `<td width = "120" align="center">`+ n2 +`  </td>`;
+        output += `<tr> <td id = "materia">${user.materia} </td>`;
+        output += `<td id = "notas">`+ n1 +` </td >`;
+        output += `<td id = "notas">`+ n2 +`  </td>`;
 
         //Verifica se e possivel atingir a media pretendida ou se
         //ela ja foi atingida
         if (n3 <= 0){
-            output += `<td width = "400">Você já atingiu a média proposta nesta disciplina :)</td> `;
+            output += `<td id="P3">Você já atingiu a média proposta nesta disciplina :)</td> `;
         }else if(n3 >= 10){
             output += `<td>Não é possível atingir a média proposta na P3 :(</td>`;
         }else{
@@ -53,5 +53,5 @@ function show(users){
         }
 
     }
-    document.querySelector('main').innerHTML = output;
+    document.querySelector('div#dados').innerHTML = output;
 }  
