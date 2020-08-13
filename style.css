@@ -141,10 +141,29 @@ footer#rodape p{
 
 /*Formatacao para tablets*/
 @media only screen and (max-device-width: 1100px) {
+	/*Formatacao da tabela*/
 	div#dados{ 
 		height: 100px;
 		font-size: 20pt;
 		transform: translate(-50%,-450%);
+	}
+
+	header#cabecalho img#poli{
+		width: 130px;
+	}
+	
+	header#cabecalho img#chapeu{
+		width: 120px;
+		padding: 1%;
+	}
+
+	header#cabecalho {
+		height:180px;
+	}
+	
+	header#cabecalho h1{
+		font-size: 65pt;
+		top: 85px;
 	}
 
 	/*Formatacao do footer*/
