@@ -21,7 +21,3 @@ da instituição.
 
 
 
-
-## Licença
-![Badge](https://img.shields.io/github/license/rafaelmspu2/Projeto-Poli-Junior)
-
