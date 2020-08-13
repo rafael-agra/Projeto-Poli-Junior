@@ -16,6 +16,23 @@ body {
 
 }
 
+/* Nome do site */
+header#cabecalho {
+	border-bottom: 1px solid #ffffff;
+	height:100px;
+}
+
+header#cabecalho h1{
+	font-size: 40pt;
+	font-family: 'Fenix', serif;
+	color: #ffffff;
+	position: absolute;
+	top: 4%;
+	right:3%;
+	transform: translate(0%,-50%);
+	text-transform:uppercase;
+}
+
 /*Configuracoes Forms*/
 form {
 	width: 550px;
@@ -40,7 +57,7 @@ input:hover{
 legend {
 	color: #fffefe;
 	font-size: 23pt;
-    font-family: 'Fenix', serif
+    font-family: 'Fenix', serif;
 }
 
 /*Configuracoes dos fieldset*/
@@ -69,6 +86,8 @@ fieldset {
     box-shadow:inset 0px 1px 0px 0px #fdf7f0;
     color:#333;
     text-shadow:0px 1px 0px #ffee66;
+    width: 80px;
+
 }
 
 
