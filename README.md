@@ -27,3 +27,8 @@ da instituição.
 :trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida.
 
 
+## Licença 
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: Ano - 2020
