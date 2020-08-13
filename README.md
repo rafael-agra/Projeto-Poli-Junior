@@ -18,6 +18,6 @@ da instituição.
 :trophy: Buscar dados de uma api e mostrar em formas de tabela <br/>
 :trophy: Redirecionar um usuário da página de login para a principal <br/>
 :trophy: Verificar se o usuário digitou ao menos 3 caracteres/números em cada "textbox" na página de login <br/>
-
+:trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida.
 
 
