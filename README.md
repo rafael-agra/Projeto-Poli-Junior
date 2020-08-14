@@ -5,6 +5,8 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
+:small_blue_diamond: [API](#API)
+
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
 :small_blue_diamond: [Licença](#Licença)
@@ -21,6 +23,9 @@ sem maiores complicações e tendo em mente que essa ferramenta seria divulgada 
 da instituição.
 </p>
 
+## API
+A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
+
 ## A aplicação
 <p>
   Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
@@ -29,9 +34,24 @@ da instituição.
   para só então ter acesso as suas notas, bem como o cálculo da nota na P3 para se atingir a média pretendida.
   Abaixo está uma foto da tela de login:
   
+  <img src="https://github.com/rafaelmspu2/Projeto-Poli-Junior/blob/master/imagens%20de%20demonstracao/login.png">
   
+  Caso o usuário tente clicar no botão "Entrar" sem preencher nenhum campo a página emitirá um alerta informando que
+  o usuário não informou as credenciais corretamente, o mesmo vale se apenas um dos campos forem preenchidos. Além disso
+  no campo "NªUSP" são aceitos apenas números. Cada campo deve conter ao menos 3 caracteres para ser considerado válido.
+  
+  Há também uma opção de cadastro, ao clicá-la o usuário é informado que essa opção ainda não está disponível no site.
+  
+  Ao fazer login o usuário é redirecionado para próxima página Html, onde será ver possível ver suas informações registradas
+  na API, como é possível ver na imagem abaixo:
+  
+  <img src="https://github.com/rafaelmspu2/Projeto-Poli-Junior/blob/master/imagens%20de%20demonstracao/notas.png">
+  
+  A tabela foi separada em 4 campos: Matéria, Nota da P1, Nota da P2 e Nota necessária na P3, onde nesse último é informado
+  ao usuário se é possível ou não atingir a média pretendida e, se for, calcular a nota necessária na P3. 
 
 </p>
+
 ## Funcionalidades
 :trophy: Buscar dados de uma API e mostrar em formas de tabela <br/>
 :trophy: Redirecionar um usuário da página de login para a principal <br/>
