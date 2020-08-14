@@ -29,8 +29,7 @@ a#cadastrar{
 
 
 /*Tirar spin button do numbers nos navegadoress Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
