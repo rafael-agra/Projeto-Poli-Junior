@@ -9,9 +9,10 @@
 html, body {height:100%;}
 
 .geral {
+	display: flex;
+	align-items: center;
     min-height:100%;
-    position:relative;
-    width:800px;
+    width:100%;
 }
 
 p{
@@ -80,12 +81,11 @@ div#escuro {
 
 /* Formatacao da <tabela>*/
 div#dados{
-	display: block;
-	position: absolute;
-    left: 50%;
-    top: 50%; 
-	transform: translate(-50%,-50%);
-	width: 800px; 
+	align-self: center;
+	justify-content: center; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 div#dados td{
@@ -107,9 +107,14 @@ div#dados td#p3{
 
 /*Configuracao do corpo*/
 section#corpo {
-	display: block;
-	float: left;
-	height: 500px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+	margin: auto 0;
+	align-items: center;
+	height: calc(100vh - 100px - 35px - 31px);
 }
 
 section#corpo p{
@@ -142,12 +147,12 @@ footer#rodape p{
 /*Formatacao para tablets*/
 @media only screen and (max-device-width: 1100px) {
 	/*Formatacao da tabela*/
-	div#dados{ 
-		height: 100px;
+	#dados{ 
+		display: flex;
 		font-size: 20pt;
-		transform: translate(-50%,-450%);
 	}
-
+	
+	/*Cabecalho*/
 	header#cabecalho img#poli{
 		width: 130px;
 	}
@@ -180,11 +185,9 @@ footer#rodape p{
 @media only screen and (max-device-width: 700px) {
 	/*Formatacao dados da tabela*/
 	div#dados{ 
-		height: 100px;
-		left: 50%;
-    	top: 50%; 
-		transform: translate(-50%,-450%);
+		margin-top: 150px;
 		font-size: 25pt;
+		margin-bottom: 50px;
 	}
 
 	div#dados td#materia{
@@ -218,12 +221,6 @@ footer#rodape p{
 		width: 120px;
 		padding: 0px;
 	}
-	
-	/*Configuracoes do tamanho*/
-	section#corpo {
-		height: 600px;
-	}
-	
 
 	/*Formatacao das cores do cabecalho*/
 	div#azul {
