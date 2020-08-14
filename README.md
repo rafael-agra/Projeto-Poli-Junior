@@ -1,4 +1,4 @@
-# Projeto Poli Junior
+# Projeto Poli Junior :octocat:
 > Status do Projeto: Concluído :heavy_check_mark:
 
 ### Tópicos 
@@ -7,11 +7,13 @@
 
 :small_blue_diamond: [API](#API)
 
+:small_blue_diamond: [A aplicação](#A aplicação)
+
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
 :small_blue_diamond: [Licença](#Licença)
 
-## Descrição do Projeto
+## Descrição do Projeto :star:
 <p>
 O projeto consistia na criação de uma página uma página em HTML, CSS e Javascript que fizesse um 
 request HTTP para obtenção dos dados (de um banco de dados fornecido, calculando e exibindo a nota 
@@ -23,10 +25,10 @@ sem maiores complicações e tendo em mente que essa ferramenta seria divulgada 
 da instituição.
 </p>
 
-## API
+## API 
 A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
 
-## A aplicação
+## A aplicação :rocket:
 <p>
   Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
   
