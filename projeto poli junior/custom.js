@@ -8,7 +8,7 @@ async function getContent(){
         show(data)
 
     }catch (error){
-        console.log(error)    
+        console.log(error)
     }
 }
 
