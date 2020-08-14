@@ -7,7 +7,7 @@
 
 :small_blue_diamond: [API](#API)
 
-:small_blue_diamond: [A aplicação](#Aplicação)
+:small_blue_diamond: [A aplicação](#A aplicação)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
