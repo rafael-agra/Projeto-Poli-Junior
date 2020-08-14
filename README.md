@@ -3,15 +3,15 @@
 
 ### Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#Descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto-star)
 
-:small_blue_diamond: [API](#API)
+:small_blue_diamond: [API](#api)
 
-:small_blue_diamond: [Aplicação](#Aplicação)
+:small_blue_diamond: [Aplicação](#a-aplicação-rocket)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Licença](#Licença)
+:small_blue_diamond: [Licença](#licença)
 
 ## Descrição do Projeto :star: 
 <p>
@@ -28,7 +28,7 @@ da instituição.
 ## API 
 A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
 
-## Aplicação :rocket:
+## A aplicação :rocket:
 <p>
   Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
   
