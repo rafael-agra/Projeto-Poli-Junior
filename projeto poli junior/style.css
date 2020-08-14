@@ -90,10 +90,6 @@ div#escuro {
 	font-weight: bold;
 }
 
-#logout :hover{
-	text-decoration: underline;
-}
-
 /* Formatacao da <tabela>*/
 div#dados{
 	align-self: center;
