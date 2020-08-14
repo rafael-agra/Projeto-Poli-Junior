@@ -7,7 +7,7 @@
 
 :small_blue_diamond: [API](#API)
 
-:small_blue_diamond: [A aplicação](#A aplicação)
+:small_blue_diamond: [A aplicação](#Aplicação)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
@@ -28,7 +28,7 @@ da instituição.
 ## API 
 A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
 
-## A aplicação :rocket:
+## Aplicação :rocket:
 <p>
   Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
   
