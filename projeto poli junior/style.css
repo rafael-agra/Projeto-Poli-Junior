@@ -76,7 +76,22 @@ div#amarelo {
 div#escuro {
 	display: block;
 	height: 15px;
-	background-color: #1094AB
+	background-color: #1094AB;
+	text-align: right;
+	font-size: 10px;
+	padding-right: 3px;
+}
+
+/*Botao de logout*/
+#logout{
+	font-family: verdana;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#logout :hover{
+	text-decoration: underline;
 }
 
 /* Formatacao da <tabela>*/
@@ -151,9 +166,14 @@ footer#rodape p{
 		display: flex;
 		font-size: 20pt;
 		margin-bottom: 80px;
-		margin-top: 300px;
+		margin-top: 200px;
 	}
 	
+	/*Configuracao do corpo*/
+	section#corpo {
+		height: calc(100vh - 40px - 31px);
+	}
+
 	/*Cabecalho*/
 	header#cabecalho img#poli{
 		width: 130px;
@@ -173,6 +193,23 @@ footer#rodape p{
 		top: 85px;
 	}
 
+	#logout{
+		font-size: 20px;
+	}
+
+	/*Formatacao das cores do cabecalho*/
+	div#azul {
+		height: 20px;
+	}
+
+	div#amarelo {
+		height: 20px;
+	}	
+
+	div#escuro {
+		height: 25px;
+	}
+
 	/*Formatacao do footer*/
 	footer#rodape {
 		height: 50px;
@@ -187,7 +224,7 @@ footer#rodape p{
 @media only screen and (max-device-width: 700px) {
 	/*Formatacao dados da tabela*/
 	div#dados{ 
-		margin-top: 550px;
+		margin-top: 500px;
 		font-size: 25pt;
 		margin-bottom: 50px;
 	}
@@ -224,18 +261,7 @@ footer#rodape p{
 		padding: 0px;
 	}
 
-	/*Formatacao das cores do cabecalho*/
-	div#azul {
-		height: 20px;
-	}
-
-	div#amarelo {
-		height: 20px;
-	}	
-
-	div#escuro {
-		height: 25px;
-	}
+	
 
 	/*Formatacao do footer*/
 	footer#rodape {
