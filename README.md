@@ -3,7 +3,7 @@
 
 ### Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#Descrição-do-projeto)
 
 :small_blue_diamond: [API](#API)
 
@@ -13,7 +13,7 @@
 
 :small_blue_diamond: [Licença](#Licença)
 
-## Descrição do Projeto :star:
+## Descrição do Projeto :star: 
 <p>
 O projeto consistia na criação de uma página uma página em HTML, CSS e Javascript que fizesse um 
 request HTTP para obtenção dos dados (de um banco de dados fornecido, calculando e exibindo a nota 
