@@ -22,11 +22,18 @@ da instituição.
 </p>
 
 ## A aplicação
+<p>
+  Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
+  
+  A primeira é a página de login, pela qual o usuário deve preencher nos campos suas credenciais (NºUSP e Senha)
+  para só então ter acesso as suas notas, bem como o cálculo da nota na P3 para se atingir a média pretendida.
+  Abaixo está uma foto da tela de login:
+  
+  
 
-
-
+</p>
 ## Funcionalidades
-:trophy: Buscar dados de uma api e mostrar em formas de tabela <br/>
+:trophy: Buscar dados de uma API e mostrar em formas de tabela <br/>
 :trophy: Redirecionar um usuário da página de login para a principal <br/>
 :trophy: Verificar se o usuário digitou ao menos 3 caracteres/números em cada "textbox" na página de login <br/>
 :trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida.
