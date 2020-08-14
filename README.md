@@ -51,6 +51,9 @@ A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com
   
   A tabela foi separada em 4 campos: Matéria, Nota da P1, Nota da P2 e Nota necessária na P3, onde nesse último é informado
   ao usuário se é possível ou não atingir a média pretendida e, se for, calcular a nota necessária na P3. 
+  
+  Já no canto superior direito é possível observar um botão "Sair", que redireciona o usuário para a página de login fazendo
+  assim o seu logout.
 
 </p>
 
