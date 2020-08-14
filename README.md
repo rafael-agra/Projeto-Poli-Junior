@@ -1,5 +1,5 @@
 # Projeto Poli Junior
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Concluido :heavy_check_mark:
 
 ### Tópicos 
 
