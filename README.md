@@ -30,7 +30,7 @@ A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com
 
 ## A aplicação :rocket:
 <p>
-  Para densevolver o projeto foram criadas duas páginas html a **index.html** e a **notas.html**.
+  Para densevolver o projeto foram criadas duas páginas html a <strong>index.html</strong> e a <strong>notas.html</strong>.
   
   A primeira é a página de login, pela qual o usuário deve preencher nos campos suas credenciais (NºUSP e Senha)
   para só então ter acesso as suas notas, bem como o cálculo da nota na P3 para se atingir a média pretendida.
