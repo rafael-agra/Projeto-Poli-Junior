@@ -58,10 +58,12 @@ A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com
 </p>
 
 ## Funcionalidades
-:trophy: Buscar dados de uma API e mostrar em formas de tabela <br/>
-:trophy: Redirecionar um usuário da página de login para a principal <br/>
-:trophy: Verificar se o usuário digitou ao menos 3 caracteres/números em cada "textbox" na página de login <br/>
-:trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida.
+:trophy: Buscar dados de uma API e mostrar em formas de tabela. <br/>
+:trophy: Redirecionar um usuário da página de login para a principal. <br/>
+:trophy: Verificar se o usuário digitou ao menos 3 caracteres/números em cada "textbox" na página de login. <br/>
+:trophy: Verifica se é possível atingir a média pretendida ou se ela já foi atingida. <br/>
+:trophy: Responsivo para outras plataformas.
+
 
 
 ## Licença 
