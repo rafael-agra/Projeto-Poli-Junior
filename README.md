@@ -7,6 +7,8 @@
 
 :small_blue_diamond: [API](#api)
 
+:small_blue_diamond: [Deploy](#Deploy)
+
 :small_blue_diamond: [Aplicação](#a-aplicação-rocket)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
@@ -27,6 +29,12 @@ da instituição.
 
 ## API 
 A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
+
+**Att: A api foi retirada do ar pelo respectivo provedor (30/10/2020)
+
+## Deploy
+
+https://rafaelmspu2.github.io/Projeto-Poli-Junior/
 
 ## A aplicação :rocket:
 <p>
