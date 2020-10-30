@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Configuracoes da imagem de fundo*/
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("_imagens/fundo.jpg");    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("fundo.jpg");    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
