@@ -30,7 +30,7 @@ da instituição.
 ## API 
 A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com.br/
 
-**Att: A api foi retirada do ar pelo respectivo provedor (30/10/2020)
+**Att: A api foi retirada do ar pelo respectivo provedor (30/10/2020)**
 
 ## Deploy
 
