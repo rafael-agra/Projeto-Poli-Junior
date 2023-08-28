@@ -34,7 +34,7 @@ A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com
 
 ## Deploy
 
-https://rafaelmspu2.github.io/Projeto-Poli-Junior/
+--Indisponível no momento 
 
 ## A aplicação :rocket:
 <p>
