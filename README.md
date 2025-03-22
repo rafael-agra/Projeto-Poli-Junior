@@ -34,7 +34,7 @@ A API utilizada neste projeto pode ser encontrada em: https://api.polijunior.com
 
 ## Deploy
 
---Indisponível no momento 
+https://romantic-varahamihira-7ce1f5.netlify.app/
 
 ## A aplicação :rocket:
 <p>
